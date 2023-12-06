@@ -16,9 +16,7 @@
 
 name: release
 on:
-  push:
-    tags:
-    - "v*"
+  - workflow_dispatch
 
 env:
   BIN_NAME: dumbpipe
