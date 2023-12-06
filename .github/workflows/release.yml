@@ -67,10 +67,10 @@ jobs:
             target: linux-x86_64
             runner: [self-hosted, linux, X64]
         # TODO: x86_64 runner is not available on the org level
-        #   - name: macOS-latest
-        #     os: macOS-latest
-        #     target: darwin-x86_64
-        #     runner: [self-hosted, macOS, X64]
+          - name: macOS-latest
+            os: macOS-latest
+            target: darwin-x86_64
+            runner: [self-hosted, macOS, X64]
           - name: macOS-arm-latest
             os: macOS-latest
             target: darwin-aarch64
